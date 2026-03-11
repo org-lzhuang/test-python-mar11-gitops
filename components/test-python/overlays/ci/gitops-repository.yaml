@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-python-gitops-repository
+spec:
+  url: https://github.com/org-lzhuang/test-python-mar11-gitops
